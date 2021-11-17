@@ -4,6 +4,22 @@
 
 Built using Node JS, Express, MongoDB and Mongoose
 
+### Steps to follow
+
+1. Create a collection named `totalmetrics`
+
+2. Insert this record in `totalmetrics` collection
+
+```json
+{
+    "_id": {
+        "$oid": "6194ac61a064c2438ac06cd1"
+    },
+    "timespent": 0,
+    "webreq": 0
+}
+```
+
 ### Start application using
 
 `npm start`
